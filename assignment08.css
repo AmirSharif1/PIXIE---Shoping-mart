@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid rgb(235, 230, 230);
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 35px;
+    padding: 15px;
+
+}
+    .nav ul li{
+        font-size: 18px;
+        text-transform: uppercase;
+
+    }
+    .nav ul a{
+        text-decoration: none;
+        color:black;}
+        #home a{
+            color: blue;
+        }
+    .baner{
+        background-image: url("banner-bg.jpg");
+        background-repeat: no-repeat;
+        height: 650px;
+        background-size:cover ;
+        background-position: center;
+        position: relative;
+    }
+    .emp{
+        width: 30px;
+        height: 5px;
+        background-color: blue;
+        margin-top: 15px;
+    }
+    .iner{
+        position: absolute;
+        width: 470px;
+        background-color: #fff;
+        padding: 30px;
+        text-transform: capitalize;
+        left: 211px;
+        font-size: 17px;
+        line-height: 26px;
+        top: 145px;
+        opacity: 0.9;
+        }
+    .iner p{
+        padding: 15px 0px 15px 0px;
+    }
+    .iner button{
+       text-decoration: none;
+       background-color: blue;
+       padding: 13px;
+       border-radius: 5px;
+       border: none;
+       margin-top: 10px;
+
+    }
+    .iner button a{
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .bl{
+        color: blue;
+    }
+    .sec1{
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 65px;
+    }
+    .sec1 h4{
+        font-size: 30px;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+    }
+    .items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .item1{
+        border: 1px solid rgb(216, 210, 210);
+        padding: 20px;
+        border-radius: 5px;
+        border-bottom: none;
+        margin-right: 25px;
+
+    }
+    .item1 h4{
+        font-size: 20px;
+        margin: 10px 0px 8px 0px;
+        
+
+    }
+    .r{
+        color: blue;
+
+    }
+    .wem{
+        width: 50px;
+        height: 7px;
+        background-color: #fff;
+        
+        margin: auto;
+    }
+    .sec2{
+         text-align: center;
+         font-size: 24px;
+         background-color: rgb(91, 91, 241);
+         color: #fff;
+         padding: 90px;
+         text-transform: capitalize;
+    }
+    .sec2 h3{
+        margin: 20px 0px 50px 0px;
+    }
+    .sec2 p{
+         margin-bottom: 45px;
+    }
+    .sec2 input{
+        padding: 13px;
+        width: 443px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: rgb(68, 68, 231);
+        color: #fff;
+
+    }
+    input{
+        color: #fff;
+
+    }
+    ::placeholder{
+        color: #fff;
+    }
+    
+    
+    .sec2 button{
+        padding: 13px 80px 13px 80px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 30px;
+    }
+    .sec2 button a{
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(110, 110, 236);
+    }
+    .logo2{
+        text-align: center;
+        padding: 55px;
+    }
+    .conact{
+        margin-bottom: 45px;
+    }
+    .conact ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 35px;
+        padding: 35px;
+    }
+    .conact ul a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(87, 85, 85);
+        font-size: 18px;
+        
+    }
+    .icon{
+        padding-bottom: 45px;
+        border-bottom: 2px solid rgb(233, 227, 227);
+    } 
+    .icon ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 30px;
+        gap: 40px;
+        margin-bottom: 45px;
+
+    }
+    .icon ul a{
+        color: gray;
+    }
+    .foothome{
+        text-align: center;
+        padding:15px;
+        color: gray;
+        text-transform: uppercase;
+    }
+    @media only screen and (max-width:768px){
+        
+            .iner {
+                width: 470px;
+                 top: 23%;
+                 left: 184px;
+            
+        }
+        .items{
+            flex-direction: column;
+            /* width: 100%; */
+            align-items: center;
+
+        }
+        .item1{
+            margin-top: 20px;
+        }
+        .sec1 h4{
+            text-align: center;
+        }
+        .sec2 input{
+            margin-bottom: 20px;
+        }
+       
+     
+    }
